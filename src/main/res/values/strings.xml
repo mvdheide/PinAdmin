@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PinAdmin</string>
+
+    <string name="hintFirstLinkedField">Winkel</string>
+    <string name="hintSecondLinkedField">plaats</string>
+    <string name="hintThirdLinkedField">TMS nummer</string>
+    <string name="numberOfPinpadsInOverview">aantal pinpads:</string>
+
+    <string name="succes">Gelukt</string>
+    <string name="failed">Niet gelukt</string>
+    <string name="Ja">Ja</string>
+    <string name="Nee">Nee</string>
+
+    <string name="pinAdminEmailAddress">pinadmin@centric.eu</string>
+    <string name="pinAdminEmailSubject">wijzing pinadministratie</string>
+    <string name="pinAdminEmail_first_line">Bij deze wil ik graag een paar wijzigingen doorgeven:</string>
+    <string name="pinAdminEmail_last_line">Zou dit aangepast kunnen worden ?</string>
+    <string name="pinAdminEmail_greet">Met vriendelijke groet</string>
+    <string name="chooseEmailClient">Kies een email client om de wijzing te versturen.</string>
+    <string name="detail_no_change">wijzigingen zijn niet verstuurd, er zijn geen wijzingen</string>
+    <string name="detail_exit_with_change">Weet u zeker dat u terug wilt gaan, er zijn nog een paar niet verstuurde wijzingingen</string>
+    <string name="button_previous">vorige in lijst</string>
+    <string name="button_next">volgende in lijst</string>
+
+    <string name="update_last_time">De laatste keer dat de database is geupdated, is op </string>
+    <string name="update_no_new_version">Er is geen nieuwere versie beschikbaar</string>
+    <string name="update_wrong_file_selected">verkeerde file geselecteerd, selecteer opniew \'update via OneDrive\' en selecteer de file</string>
+    <string name="update_succesfull">De nieuwste versie is geladen</string>
+    <string name="update_failed">Het updaten is niet gelukt:</string>
+    <string name="update_action1_download_copy">Actie 1 van 3: downloaden en kopieren van database file</string>
+    <string name="update_action2_tmsnr">Actie 2 van 3: verwerken van TMS nummers</string>
+    <string name="update_action3_generaldata">Actie 3 van 3: verwerken van adressenBeheerTD gegevens</string>
+    <string name="main_update_longer_than_week">De database is langer dan een week niet geupdate. Wilt u nu updaten?</string>
+    <string name="Update_queston">Update?</string>
+    <string name="update">Updaten</string>
+    <string name="update_explorer">update (selecteer de file ATDCTAP2.MDB)</string>
+
+    <string name="position">position</string>
+    <string name="filteredpinpadIDArray">filteredpinpadIDArray</string>
+
+    <string name="winkelnaam">winkel</string>
+    <string name="plaats">plaats</string>
+    <string name="filiaalNR">filiaal#</string>
+    <string name="KassaNR">kassa#</string>
+    <string name="TMSnr">tms#</string>
+    <string name="detail_edit_infotext">Mochten er gegevens zijn die niet kloppen, geef hier de wijzigingen aan en klik op de knop versturen. De wijzigingen worden dan naar PinAdmin gemaild en zij verwerken dit in de database.</string>
+    <string name="detail_edit_send_button">verstuur wijziging</string>
+</resources>

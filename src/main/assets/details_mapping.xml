@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expandableListViewStructure>
+    <group name="algemene gegevens">
+	    <item>
+		  <name>hoofdKantoor: </name>
+		  <column>HoofdkantoorNaam</column>
+		</item>
+		<item>
+		  <name>naam: </name>
+		  <column>displayName</column>
+		</item>
+		<item>
+			<name>plaats: </name>
+			<column>plaats</column>
+		</item>
+		<item>
+			<name>shop nummer: </name>
+			<column>shopNR</column>
+		</item>
+		<item>
+		  <name>kassa nummer: </name>
+		  <column>kassanum</column>
+		</item>
+	    <item>
+		  <name>pinpad soort: </name>
+		  <column>typebetaal1</column>
+		</item>
+		<item>
+			<name>TMS nummer: </name>
+			<column>tmsNR</column>
+		</item>
+	</group>
+	<group name="contact gegevens">
+		<item>
+		  <name>adres: </name>
+		  <column>adres</column>
+		</item>
+		<item>
+		  <name>postcode: </name>
+		  <column>Postcode</column>
+		</item>
+		<item>
+		  <name>plaats: </name>
+		  <column>plaats</column>
+		</item>
+		<item>
+		  <name>telefoon: </name>
+		  <column>telefoon</column>
+		</item>
+	</group>
+    <group name="verbinding gegevens">
+	    <item>
+		  <name>ip: </name>
+		  <column>nuaadres</column>
+		</item>
+		<item>
+		  <name>subnetmask: </name>
+		  <column>MASK</column>
+		</item>
+		<item>
+		  <name>gateway: </name>
+		  <column>GW</column>
+		</item>
+		<item>
+		  <name>netwerk profiel: </name>
+		  <column>datacommadre</column>
+		</item>
+		<item>
+		  <name>MAC: </name>
+		  <column>MAC</column>
+		</item>
+	</group>
+    <group name="contract gegevens">
+	    <item>
+		  <name>automaatcode: </name>
+		  <column>betaalauto</column>
+		</item>
+		<item>
+		  <name>TIDCCV: </name>
+		  <column>TID</column>
+		</item>
+		<item>
+		  <name>TIDAWL: </name>
+		  <column>TIDAWL</column>
+		</item>
+		<item>
+		  <name>MerchantID: </name>
+		  <column>MerchantID</column>
+		</item>
+	</group>
+    <group name="overige gegevens">
+	    <item>
+		  <name>PUK GSM: </name>
+		  <column>PUKGSM</column>
+		</item>
+		<item>
+		  <name>CertCode: </name>
+		  <column>CertCode</column>
+		</item>
+		<item>
+		  <name>datum install: </name>
+		  <column>datuminstall</column>
+		</item>
+		<item>
+		  <name>Installatie: </name>
+		  <column>Installatie</column>
+		</item>
+		<item>
+		  <name>InstallatieDatum: </name>
+		  <column>InstallatieDatum</column>
+		</item>
+		<item>
+		  <name>Euro_Install_Num: </name>
+		  <column>Euro_Install_Num</column>
+		</item>
+		<item>
+		  <name>Euro_Opmerkingen: </name>
+		  <column>Euro_Opmerkingen</column>
+		</item>
+		<item>
+		  <name>pinpadserie: </name>
+		  <column>pinpadserie</column>
+		</item>
+		<item>
+		  <name>Portnumber: </name>
+		  <column>Portnumber</column>
+		</item>
+		<item>
+		  <name>verkooppuntc: </name>
+		  <column>verkooppuntc</column>
+		</item>
+	</group>
+</expandableListViewStructure>

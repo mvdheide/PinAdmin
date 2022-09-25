@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="eu.centric.pinadmin.fragment.TableHeaderFragment">
+
+    <LinearLayout
+        android:id="@+id/headerButtonBarLinearLayout"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shopHeaderButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.28"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/winkelnaam"
+            android:textAlignment="viewStart"
+            android:textSize="8sp"
+            />
+
+        <Button
+            android:id="@+id/placeHeaderButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.26"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/plaats"
+            android:textAlignment="viewStart"
+            android:textSize="8sp"
+            />
+
+        <Button
+            android:id="@+id/filiaalNRHeaderButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.12"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/filiaalNR"
+            android:textAlignment="viewStart"
+            android:textSize="8sp"
+            />
+
+        <Button
+            android:id="@+id/kassaNRHeaderButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.10"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/KassaNR"
+            android:textAlignment="viewStart"
+            android:textSize="8sp"
+            />
+
+        <Button
+            android:id="@+id/tmsNRHeaderButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.24"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:text="@string/TMSnr"
+            android:textAlignment="viewStart"
+            android:textSize="8sp"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>
